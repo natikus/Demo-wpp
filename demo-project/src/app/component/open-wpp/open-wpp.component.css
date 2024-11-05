@@ -1,0 +1,69 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Contenedor principal */
+  div {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo de etiqueta */
+  label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+    display: inline-block;
+  }
+  
+  /* Campo de entrada */
+  input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="tel"]:focus {
+    border-color: #3b82f6;
+    outline: none;
+  }
+  
+  /* Botón */
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3b82f6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+  }
+  
+  button:hover {
+    background-color: #2563eb;
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+  }
+  

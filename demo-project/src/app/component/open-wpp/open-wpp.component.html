@@ -1,0 +1,13 @@
+<div>
+    <label for="phone">Teléfono:</label>
+    <input 
+    type="tel" 
+    id="phone" 
+    class="form-control"
+    [(ngModel)]="telefono"
+    placeholder=" 598 xxx xxx xx"
+    />
+    <button color="primary" (click)="openWhatsApp()">
+    Contactar por WhatsApp
+    </button>
+</div>
